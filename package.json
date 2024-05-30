@@ -13,7 +13,10 @@
     "@emailjs/browser": "^4.3.3",
     "emailjs": "^4.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -23,6 +26,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "sass": "^1.77.3",
     "vite": "^5.2.0"
   }
 }

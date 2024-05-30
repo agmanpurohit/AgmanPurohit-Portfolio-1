@@ -31,6 +31,10 @@ body {
   gap: 60px;
 }
 
+section {
+  min-height: 100vh;
+}
+
 h1,
 h2,
 h3,
@@ -74,17 +78,20 @@ p {
   cursor: pointer;
 }
 
-@media (width >= 800px) {
+@media (width >=800px) {
   #root {
     gap: 100px;
   }
+
   h1 {
     font-size: 40px;
   }
+
   h2,
   h3 {
     font-size: 24px;
   }
+
   p {
     font-size: 20px;
   }
@@ -93,10 +100,11 @@ p {
     margin-bottom: 60px;
   }
 
-  @media (width >= 1400px) {
+  @media (width >=1400px) {
     #root {
       gap: 200px;
     }
+
     h1 {
       font-size: 48px;
     }

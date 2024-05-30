@@ -4,8 +4,8 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
-  min-height: 500px;
+  height: 70vh;
+  min-height: 100px;
 
   .hero {
     max-width: 200px;
@@ -68,7 +68,8 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 30ch;
+
 }
 
 .info {
@@ -77,7 +78,7 @@
   gap: 20px;
 }
 
-@media (width >= 800px) {
+@media (width >=768px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
@@ -85,16 +86,23 @@
 
     .hero {
       max-width: 350px;
-      width: 350px;
+      width: 100vh;
+
     }
   }
 }
 
-@media (width >= 1400px) {
+@media (max-width:768px) {
   .container {
     .hero {
       max-width: 400px;
       width: 400px;
     }
+  }
+
+  .description {
+    max-width: 30ch;
+    margin-left: 70px;
+
   }
 }

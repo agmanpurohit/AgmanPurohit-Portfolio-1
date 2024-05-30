@@ -8,11 +8,19 @@ import Skills from './sections/Skills/Skills';
 function App() {
   return (
     <>
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <section>
+        <Hero />
+      </section>
+      <section>
+        <Projects />
+      </section>
+      <section>
+        <Skills />
+      </section>
+      <section>
+        <Contact />
+        <Footer />
+      </section>
     </>
   );
 }
