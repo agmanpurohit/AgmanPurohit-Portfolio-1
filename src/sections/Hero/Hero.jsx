@@ -24,7 +24,9 @@ function Hero() {
 
   return (
     <>
-      <Navbar />
+      <nav className={styles.nav}>
+        <Navbar />
+      </nav>
       <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
           <img

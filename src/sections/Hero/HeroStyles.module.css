@@ -1,11 +1,16 @@
+.nav{
+  
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 70vh;
-  min-height: 100px;
+  min-height: 600px;
+  width: auto;
+  /* background-color: lightblue; */
 
   .hero {
     max-width: 200px;
@@ -95,14 +100,18 @@
 @media (max-width:768px) {
   .container {
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 300px;
+      width: 300px;
+    }
+    .colorMode{
+      max-width: 50px;
+      height: 50px;
     }
   }
 
   .description {
     max-width: 30ch;
-    margin-left: 70px;
+    margin-left: 10px;
 
   }
 }

@@ -16,7 +16,7 @@
         display: flex;
         align-items: center;
         list-style: none;
-        gap: 16px;
+        gap: 30px;
         font-size: 20px;
 
         .nav-mob-close {
@@ -65,8 +65,9 @@
         margin: 20px 50px;
 
         .logo {
-            height: 325px;
-            width: 325px;
+            height: 150px;
+            width: 150px;
+            margin-left: 30px;
         }
 
         .nav-mob-open {
@@ -80,7 +81,7 @@
             flex-direction: column;
             align-items: start;
             top: 100px;
-            gap: 40px;
+            gap: 50px;
             background-color: #1F0016;
             width: 350px;
             height: 50%;
@@ -112,47 +113,49 @@
 }
 
 @media(max-width:360px) {
-    .navbar {
-        margin: 20px 50px;
 
-        .nav-mob-open {
-            display: block;
-            position: fixed;
-            right: 90px;
+        .logo {
+            height: 150px;
+            width: 150px;
         }
 
-        .nav-menu {
-            position: fixed;
-            flex-direction: column;
-            align-items: start;
-            top: 0;
-            gap: 30px;
-            background-color: #1F0016;
-            width: 350px;
-            height: 100%;
-            z-index: 2;
-            transition: right .5s;
-            right: -350px;
+        // .nav-mob-open {
+        //     display: block;
+        //     position: fixed;
+        //     right: 90px;
+        // }
 
-            .nav-mob-close {
-                display: block;
-                position: relative;
-                top: 30px;
-                left: 246px;
-                width: 30px;
-            }
+        // .nav-menu {
+        //     position: fixed;
+        //     flex-direction: column;
+        //     align-items: start;
+        //     top: 0;
+        //     gap: 30px;
+        //     background-color: #1F0016;
+        //     width: 350px;
+        //     height: 100%;
+        //     z-index: 2;
+        //     transition: right .5s;
+        //     right: -350px;
 
-            li {
-                font-size: 30px;
-                padding-left: 100px;
-                flex-direction: row;
-                gap: 20px;
-                padding-top: 50px;
-            }
-        }
+        //     .nav-mob-close {
+        //         display: block;
+        //         position: relative;
+        //         top: 30px;
+        //         left: 246px;
+        //         width: 30px;
+        //     }
 
-        .nav-connect {
-            display: none;
-        }
+        //     li {
+        //         font-size: 30px;
+        //         padding-left: 100px;
+        //         flex-direction: row;
+        //         gap: 20px;
+        //         padding-top: 50px;
+        //     }
+        // }
+
+        // .nav-connect {
+        //     display: none;
+        // }
     }
-}

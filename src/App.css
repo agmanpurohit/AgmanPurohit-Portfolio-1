@@ -33,6 +33,7 @@ body {
 
 section {
   min-height: 100vh;
+  /* background-color: lightcyan; */
 }
 
 h1,
